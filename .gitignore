@@ -41,3 +41,15 @@ bin/
 
 ### JAR files ###
 *.jar
+
+# Ignore application.properties
+src/main/resources/application.properties
+
+# Ignore Firebase config
+src/main/resources/hospital-8c922-firebase-adminsdk-d58b7-325babf40f.json
+
+# Windows
+Thumbs.db
+
+# Local environment variables
+.env
